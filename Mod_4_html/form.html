@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Welcome to form</h2>
+    <form>
+        <label for="name">Your name
+            <input id="name"type="text" placeholder="Your Name">
+        </label>
+        
+    </form>
+    <form>
+        <label for="email">Your email
+            <input id="email"type="email" placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>
+                pick one 
+            </legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">Chitoy
+            </label>
+            <label for="Vapa">
+                <input type="radio" name="pitha" id="vapa">Vapa
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">sorisa
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">shutki
+            </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">   
+    </form>
+    
+</body>
+</html>
